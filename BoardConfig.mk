@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/sony/ivy
+DEVICE_PATH := device/sony/sumire
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
@@ -24,7 +24,7 @@ BOARD_VENDOR := sony
 TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := E6533,E6553,ivy,ivy_dsds
+TARGET_OTA_ASSERT_DEVICE := E6633,E6653,sumire,sumire_dsds
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8994
@@ -62,7 +62,7 @@ BOARD_RAMDISK_OFFSET := 0x02000000
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CONFIG := kitakami_ivy_defconfig
+TARGET_KERNEL_CONFIG := kitakami_sumire_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_SOURCE := kernel/sony/msm8994
 
@@ -168,4 +168,4 @@ WPA_SUPPLICANT_VERSION      := VER_0_8_X
 WIFI_BUS := PCIE
 
 # Inherit from the proprietary version
--include vendor/sony/ivy/BoardConfigVendor.mk
+-include vendor/sony/sumire/BoardConfigVendor.mk

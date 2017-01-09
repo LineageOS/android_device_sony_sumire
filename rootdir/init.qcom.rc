@@ -105,7 +105,7 @@ on boot
     # we want all the little cores for camera
     mkdir /dev/cpuset/camera-daemon
     write /dev/cpuset/camera-daemon/cpus 0
-    write /dev/cpuset/camera-daemon/mems 0 
+    write /dev/cpuset/camera-daemon/mems 0
     chown system system /dev/cpuset/camera-daemon
     chown system system /dev/cpuset/camera-daemon/tasks
     chmod 0664 /dev/cpuset/camera-daemon/tasks
@@ -522,7 +522,7 @@ service timekeep /system/bin/timekeep restore
 
 service adsprpcd /system/bin/adsprpcd
    class main
-   user media 
+   user media
    group media drmrpc
 
 # SONY misc
@@ -530,7 +530,7 @@ service tad_static /system/bin/tad_static /dev/block/bootdevice/by-name/TA 0,16
     class core
     user root
     group drmrpc
-    socket tad stream 0660 root drmrpc 
+    socket tad stream 0660 root drmrpc
     writepid /dev/cpuset/system-background/tasks
 
 # SONY misc
@@ -645,5 +645,3 @@ service iddd /system/bin/iddd
     class core
     user root
     group system drmrpc
-
-

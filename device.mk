@@ -15,7 +15,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/sony/ivy/ivy-vendor.mk)
+$(call inherit-product, vendor/sony/sumire/sumire-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level.xml \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version.xml
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -120,7 +119,7 @@ PRODUCT_PACKAGES += \
 
 # NFC config
 PRODUCT_PACKAGES += \
-    nfc_nci.ivy
+    nfc_nci.sumire
 
 # Multihal
 PRODUCT_PACKAGES += \
@@ -249,4 +248,3 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
-

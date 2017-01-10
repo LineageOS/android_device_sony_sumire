@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,16 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/sony/sumire/full_sumire.mk)
+ifeq ($(TARGET_INIT_VENDOR_LIB),libinit_sumire)
 
-# Inherit some common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+LOCAL_PATH := $(call my-dir)
 
-PRODUCT_NAME := lineage_sumire
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := optional
+LOCAL_C_INCLUDES := system/core/init
+LOCAL_CFLAGS := -Wall
+LOCAL_SRC_FILES := init_sumire.cpp
+LOCAL_MODULE := libinit_sumire
+include $(BUILD_STATIC_LIBRARY)
+
+endif

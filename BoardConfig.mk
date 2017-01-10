@@ -62,5 +62,9 @@ WIFI_DRIVER_FW_PATH_STA     := "/system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin"
 WPA_SUPPLICANT_VERSION      := VER_0_8_X
 WIFI_BUS := PCIE
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_sumire
+TARGET_UNIFIED_DEVICE := true
+
 # Inherit from the proprietary version
 -include vendor/sony/sumire/BoardConfigVendor.mk

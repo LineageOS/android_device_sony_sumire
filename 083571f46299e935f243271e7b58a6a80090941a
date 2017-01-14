@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_80bac0df",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-14T12:47:52Z",
+      "side": 1,
+      "message": "remove this line, this is not about documenting changes between patchsets",
+      "revId": "083571f46299e935f243271e7b58a6a80090941a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_60bb5cc5",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-14T13:14:09Z",
+      "side": 1,
+      "message": "Add the proper copyright below:\nCopyright 2017 - The LineageOS Project",
+      "revId": "3147bc9a5e2066240264951f9e7d81487966ba32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

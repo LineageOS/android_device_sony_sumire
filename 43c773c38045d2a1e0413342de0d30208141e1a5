@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_7060d035",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2017-01-15T07:11:31Z",
+      "side": 1,
+      "message": "Target a better CPU variant, or Target cortex-a53 would be a better line here.",
+      "revId": "43c773c38045d2a1e0413342de0d30208141e1a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

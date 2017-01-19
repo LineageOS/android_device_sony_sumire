@@ -23,7 +23,14 @@ $(call inherit-product, vendor/sony/sumire/sumire-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Permissions
+# Camera Configuration
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/system/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
+    $(DEVICE_PATH)/rootdir/system/etc/camera/imx241_chromatix.xml:system/etc/camera/imx241_chromatix.xml \
+    $(DEVICE_PATH)/rootdir/system/etc/camera/imx300_chromatix.xml:system/etc/camera/imx300_chromatix.xml
+
+# Device Specific Permissions
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \

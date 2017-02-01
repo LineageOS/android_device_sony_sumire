@@ -20,10 +20,3 @@ $(call inherit-product, device/sony/sumire/full_sumire.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_sumire
-
-# Use the latest approved GMS identifiers
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=sumire \
-    BUILD_FINGERPRINT=Sony/sumire/sumire:6.0.1/KITAKAMI-2.1.2-SEC-161031-1748/1:user/dev-keys \
-    PRIVATE_BUILD_DESC="sumire-user 6.0.1 KITAKAMI-2.1.2-SEC-161031-1748 1 dev-keys"

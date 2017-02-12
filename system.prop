@@ -103,6 +103,16 @@ telephony.lteOnCdmaDevice=0
 telephony.lteOnGsmDevice=1
 DEVICE_PROVISIONED=1
 
+# IMS
+persist.ims.vcel_rtcp_report=5
+persist.ims.disableUserAgent=1
+persist.radio.calls.on.ims=1
+persist.radio.jbims=1
+persist.radio.ROTATION_ENABLE=1
+persist.radio.VT_ENABLE=1
+persist.radio.VT_HYBRID_ENABLE=1
+persist.radio.VT_USE_MDM_TIME=0
+
 # Sensors
 ro.sony.sensors.wu=true
 ro.sony.sensors.max_geomag_rotv=70

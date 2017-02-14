@@ -16,6 +16,24 @@
       "revId": "a28247650360a47ede1891fab231af702b210cfc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_ca6463e7",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 14098
+      },
+      "writtenOn": "2017-02-14T08:05:37Z",
+      "side": 1,
+      "message": "Makes no sense to keep it in honestly...",
+      "parentUuid": "ba3e81b7_ff536b6a",
+      "revId": "a28247650360a47ede1891fab231af702b210cfc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

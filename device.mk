@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Mine
+$(call inherit-product, device/sony/sumire/pixN.mk)
+
 # Get common aspects
 $(call inherit-product, device/sony/kitakami-common/device-common.mk)
 

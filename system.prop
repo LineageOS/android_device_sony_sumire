@@ -98,6 +98,7 @@ ro.telephony.call_ring.multiple=false
 ro.use_data_netmgrd=true
 ro.data.large_tcp_window_size=true
 ro.ril.telephony.mqanelements=5
+ro.telephony.default_network=9
 DEVICE_PROVISIONED=1
 
 # Sensors
@@ -125,5 +126,7 @@ wifi.interface=wlan0
 ro.semc.content.number=PA4
 ro.semc.ms_type_id=PM-0796-BV
 ro.semc.product.device=E65
+ro.semc.product.model=E6653
+ro.semc.product.name=Xperia Z5
 ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=32.3.A.0.376

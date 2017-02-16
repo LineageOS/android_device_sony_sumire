@@ -25,5 +25,5 @@ PRODUCT_NAME := lineage_sumire
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sumire \
-    BUILD_FINGERPRINT=Sony/sumire/sumire:6.0.1/KITAKAMI-2.1.2-SEC-161031-1748/1:user/dev-keys \
-    PRIVATE_BUILD_DESC="sumire-user 6.0.1 KITAKAMI-2.1.2-SEC-161031-1748 1 dev-keys"
+    BUILD_FINGERPRINT=Sony/sumire/sumire:7.0/KITAKAMI-2.2.0-170123-1244/1:user/dev-keys \
+    PRIVATE_BUILD_DESC="sumire-user 7.0 KITAKAMI-2.2.0-170123-1244 1 dev-keys"

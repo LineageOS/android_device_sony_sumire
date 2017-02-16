@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_dfc09f7e",
+        "filename": "device.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 11608
+      },
+      "writtenOn": "2017-02-16T14:17:16Z",
+      "side": 1,
+      "message": "Wrong path and duplicate (line 125)",
+      "revId": "b51e3c1d91f6739e8d416c9994055b06bf35252f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

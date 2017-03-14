@@ -18,8 +18,10 @@ $(call inherit-product, device/sony/sumire/full_sumire.mk)
 
 # Inherit some common CM stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
+IS_ARM64 := TRUE
 
-PRODUCT_NAME := lineage_sumire
+PRODUCT_NAME := xosp_sumire
 
 # Use the latest approved GMS identifiers
 

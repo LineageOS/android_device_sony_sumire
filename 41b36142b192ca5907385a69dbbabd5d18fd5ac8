@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_a0d5c044",
+        "filename": "init_sumire/init_sumire.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2017-03-19T07:46:11Z",
+      "side": 1,
+      "message": "There\u0027s a tabulation here\nA space after // would be good too\nAnd property_set indentations should be 4 spaces",
+      "revId": "41b36142b192ca5907385a69dbbabd5d18fd5ac8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

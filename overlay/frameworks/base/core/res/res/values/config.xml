@@ -17,7 +17,28 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Operating volatage for bluetooth controller. 0 by default-->
-    <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3300</integer>
+    <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3600</integer>
+  
+    <!-- Rx current for bluetooth controller. 0 by default-->
+    <integer translatable="false" name="config_bluetooth_rx_cur_ma">25</integer>
+
+    <!-- Tx current for bluetooth controller. 0 by default-->
+    <integer translatable="false" name="config_bluetooth_tx_cur_ma">25</integer>
+
+    <!-- Idle current for bluetooth controller. 0 by default-->
+    <integer translatable="false" name="config_bluetooth_idle_cur_ma">1</integer>
+
+    <!-- Operating volatage for wifi radio. 0 by default-->
+    <integer name="config_wifi_operating_voltage_mv">3600</integer>
+
+    <!-- Rx current for wifi radio. 0 by default-->
+    <integer name="config_wifi_active_rx_cur_ma">185</integer>
+
+    <!-- Tx current for wifi radio. 0 by default-->
+    <integer name="config_wifi_tx_cur_ma">390</integer>
+
+    <!-- Idle Receive current for wifi radio. 0 by default-->
+    <integer translatable="false" name="config_wifi_idle_receive_cur_ma">3</integer>
 
     <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist

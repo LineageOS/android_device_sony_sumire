@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_f3313ea3",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 839,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2017-03-28T10:08:27Z",
+      "side": 1,
+      "message": "is the minus intentional there?",
+      "range": {
+        "startLine": 839,
+        "startChar": 0,
+        "endLine": 839,
+        "endChar": 1
+      },
+      "revId": "e2c7a95ee12d4fa2d2ccb1d217c75c9fcc7d0505",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

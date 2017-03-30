@@ -41,7 +41,7 @@ static void import_kernel_nv(const std::string& key,
         if ((count(value.begin(), value.end(),',')) > 0) {
             property_set("persist.multisim.config", "dsds");
             property_set("persist.radio.multisim.config", "dsds");
-            property_set("ro.telephony.default_network", "9,1");
+            property_set("ro.telephony.default_network", "9,9");
             property_set("ro.semc.product.model", "E6683");
             property_set("ro.semc.product.name", "Xperia Z5 Dual");
             property_set("ro.product.model", "E6683");

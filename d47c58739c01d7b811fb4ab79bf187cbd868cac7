@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_ebc3a588",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-16T10:19:59Z",
+      "side": 1,
+      "message": "Needs to be reworded, see my comments on your second commit (kitakami-common)",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 30
+      },
+      "revId": "d47c58739c01d7b811fb4ab79bf187cbd868cac7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_4bd51942",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 928,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-16T10:19:59Z",
+      "side": 1,
+      "message": "I know I\u0027m being picky here, but you could sort this alphabetically",
+      "range": {
+        "startLine": 918,
+        "startChar": 0,
+        "endLine": 928,
+        "endChar": 36
+      },
+      "revId": "d47c58739c01d7b811fb4ab79bf187cbd868cac7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

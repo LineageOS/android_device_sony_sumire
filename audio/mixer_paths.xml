@@ -959,6 +959,10 @@
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia17" value="1" />
     </path>
 
+    <path name="deep-buffer-spk-playback">
+        <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia17" value="1" />
+    </path>
+
     <path name="high-res-playback headphones-hi-res">
         <path name="high-res-playback" />
     </path>
@@ -2496,26 +2500,26 @@
 
     <path name="camcorder-mic">
         <path name="camcorder-mic-common" />
-        <ctl name="DEC7 Volume" value="104" />
-        <ctl name="DEC9 Volume" value="104" />
-   </path>
+        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC9 Volume" value="84" />
+    </path>
 
     <path name="camcorder-mic-gain-low">
         <path name="camcorder-mic-common" />
-        <ctl name="DEC7 Volume" value="104" />
-        <ctl name="DEC9 Volume" value="104" />
+        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC9 Volume" value="84" />
     </path>
 
     <path name="camcorder-mic-gain-mid">
         <path name="camcorder-mic-common" />
-        <ctl name="DEC7 Volume" value="117" />
-        <ctl name="DEC9 Volume" value="117" />
+        <ctl name="DEC7 Volume" value="97" />
+        <ctl name="DEC9 Volume" value="97" />
     </path>
 
     <path name="camcorder-mic-gain-high">
         <path name="camcorder-mic-common" />
-        <ctl name="DEC7 Volume" value="126" />
-        <ctl name="DEC9 Volume" value="126" />
+        <ctl name="DEC7 Volume" value="106" />
+        <ctl name="DEC9 Volume" value="106" />
     </path>
 
     <path name="hdmi-tx">
@@ -3101,6 +3105,8 @@
         <ctl name="ANC2 MUX" value="ZERO" />
         <ctl name="ADC3 Volume" value="10" />
         <ctl name="ADC2 Volume" value="10" />
+        <ctl name="RX2 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="84" />
         <ctl name="ANC1 FB MUX" value="ZERO" />
         <ctl name="ANC Function" value="OFF" />
     </path>
@@ -3118,8 +3124,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="84" />
-        <ctl name="RX2 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="77" />
+        <ctl name="RX2 Digital Volume" value="77" />
         <ctl name="ADC3 Volume" value="10" />
         <ctl name="ADC2 Volume" value="10" />
         <ctl name="ANC1 FB MUX" value="EAR_HPH_L" />
@@ -3162,8 +3168,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="84" />
-        <ctl name="RX2 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="77" />
+        <ctl name="RX2 Digital Volume" value="77" />
         <ctl name="ADC3 Volume" value="10" />
         <ctl name="ADC2 Volume" value="10" />
         <ctl name="ANC1 FB MUX" value="EAR_HPH_L" />
@@ -3203,8 +3209,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="84" />
-        <ctl name="RX2 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="77" />
+        <ctl name="RX2 Digital Volume" value="77" />
     </path>
 
     <path name="anc-off-headphone-regulation">
@@ -4254,6 +4260,11 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX2" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
+    </path>
+
+    <path name="anc-playback-volume">
+        <ctl name="RX1 Digital Volume" value="77" />
+        <ctl name="RX2 Digital Volume" value="77" />
     </path>
 
 </mixer>
